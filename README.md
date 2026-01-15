@@ -44,8 +44,9 @@ git clone [https://github.com/your-username/your-repo-name.git](https://github.c
 cd your-repo-name
 ```
 # 安装依赖
+```bash
 pip install -r requirements.txt
-
+```
 ### 2. 下载数据与权重
 
 运行脚本下载演示图库和转换后的模型权重。
@@ -143,6 +144,7 @@ streamlit run app.py
 | **平均绝对误差 (MAE)** | `< 1e-15` (数学上完全等价) |
 | **推理时间 (CPU)** | `~0.15s` / 每张图 |
 | **检索速度** | `< 0.01s` (针对 10k 图库) |
+
 
 
 
